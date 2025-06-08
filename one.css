@@ -1,0 +1,63 @@
+#carouselExampleCaptions{
+    height:100vh;
+}
+.tshirt{
+   background-color:azure; 
+   color:maroon;
+   width:250px;
+   height: 300px;
+   margin-top: 100px;
+   margin-left: 20px;
+   margin-right: 20px;
+   border-radius: 10px;
+   border:10px solid;
+   border-width: 3px;
+   border-color: black;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.tsimg{
+    width: 227px;
+    height: 180px;
+    margin-left: 8px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.bu{
+    margin-right: 10px;
+    background-color:maroon;
+    color: white;
+    border-radius: 10px;
+    height: 40px ;
+    width: 110px;
+}
+.bu:hover{
+    color:aliceblue;
+    background-color: green;
+}
+.para{
+    margin:10px;
+    
+}
+.para h6{
+    color:black;
+    opacity: 0.6;
+}
+.para p{
+    color:black;
+    opacity:0.5;
+}
+.ff{
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+}
+.down{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

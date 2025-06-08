@@ -1,0 +1,69 @@
+.fa-slack{ 
+    transform:scale(0.5);
+    color: maroon;
+    opacity:0.3;
+    animation: mySlide 1.5s ease-in-out forwards;
+    
+    
+}
+body{
+    background-image: url("custom.png");
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+h1{
+    font-size: 41px;
+    transform:scale(0.5);
+    color: black;
+    opacity:0.3;
+    animation: mySlide 1.5s ease-in-out forwards;
+}
+@keyframes mySlide{
+    from{
+    transform:scale(0.5);
+    opacity:0.3;
+    }
+    to{
+    transform:scale(1);
+    opacity:2;
+    }
+}
+
+.in{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.out{
+    position: relative;
+}
+button{
+    border:30px;
+    border-radius: 10px;
+    cursor:pointer;
+    background-color:azure;
+    color:#ff474c;
+    height:45px;
+    width:115px;
+    text-align: center;
+
+}
+button:hover{
+    background-color: gray;
+    color:azure;
+}
